@@ -7,10 +7,7 @@ from crawlerhelpers import get_domain, get_links
 
 
 class SimpleCrawler(object):
-    """Simple Synchronous (Blocking) Crawler Class for parsing urls from page source and return them as list of strings
-    Arguments:
-    baseurl -- base url for converting relative urls to absolute (string)
-    page -- page source, string type
+    """Simple Synchronous (Blocking) Crawler Class for parsing dead urls from web site and return them as list of strings
     """
 
     def __init__(self, baseurl):
